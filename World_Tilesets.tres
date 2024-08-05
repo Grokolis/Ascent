@@ -1,0 +1,19 @@
+[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://csx7mqouqqmiv"]
+
+[ext_resource type="Texture2D" uid="uid://behvlrmgoxlfx" path="res://art/map/WorldMap_EarthsPlaceHolder.png" id="1_wfsjv"]
+[ext_resource type="Texture2D" uid="uid://ccvh618ms2qbg" path="res://art/map/WorldMap_WaterPlaceHolder.png" id="2_b52nj"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c03nu"]
+texture = ExtResource("1_wfsjv")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4lwvh"]
+texture = ExtResource("2_b52nj")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[resource]
+tile_size = Vector2i(64, 64)
+sources/0 = SubResource("TileSetAtlasSource_c03nu")
+sources/3 = SubResource("TileSetAtlasSource_4lwvh")

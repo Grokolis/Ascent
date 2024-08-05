@@ -1,0 +1,54 @@
+[gd_scene load_steps=2 format=3 uid="uid://i0n2e1r2nrir"]
+
+[ext_resource type="Script" path="res://scripts/character_creation_scene.gd" id="1_76psb"]
+
+[node name="CharacterCreationScene" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_76psb")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_left = 410.0
+offset_top = 157.0
+offset_right = 694.0
+offset_bottom = 588.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+text = "CREATE YOUR CHARACTER"
+
+[node name="TextureRect" type="TextureRect" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="LineEdit" type="LineEdit" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="MenuButton" type="MenuButton" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="PopupMenu" type="PopupMenu" parent="PanelContainer/VBoxContainer/MenuButton"]
+visible = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="PopupPanel" type="PopupPanel" parent="."]
+visible = true
+
+[node name="GridContainer" type="GridContainer" parent="PopupPanel"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 96.0
+offset_bottom = 96.0

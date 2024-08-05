@@ -1,0 +1,109 @@
+Game Design Document (GDD)
+
+Title: [No Title Yet]
+Genre: MMO God Sim
+Platform: PC
+Target Audience: 16+
+Game Description:
+This MMO God Sim allows players to take on the roles of different types of deities, each with unique abilities and characteristics. Players interact with the world and other players primarily through text events, with some visual elements. The game features a persistent world in which player choices and events shape an evolving narrative.
+
+Game Features:
+Main Game Mechanics:
+
+Character Creation:
+Players choose one of three types of deities (Ancient, Ethereal, Outer).
+Customize the deity's appearance, name, and attributes.
+Deity Classes:
+
+Ancient Gods:
+Origin: Ascended mortals.
+Abilities: Blessing followers, direct contact and combat with other Ancients.
+Skill Line:
+Military Glory Branch
+Wisdom Branch
+Patronage Branch
+
+Ethereal Gods:
+Origin: Nature spirits.
+Skills: Bringing disasters and prosperity, depending on followers for survival.
+Skill Line:
+Natural Forces Branch
+Protectors Branch
+Harmony Branch
+
+Outer Gods:
+Origin: Cosmic beings.
+Skills: Using magic, summoning monsters, the ability to descend into the mortal world if conditions are met.
+Skill Line:
+Darkness Branch
+Chaos Branch
+Secret Knowledge Branch
+
+Persistent World:
+The game world is dynamic and changes under the influence of the actions and events of players.
+Players can create events that affect the world and participate in global events.
+
+Player Interaction:
+Players can interact with each other and the environment through text events.
+Direct combat is possible for the Ancient Gods.
+Cooperation and conflict between different types of deities.
+
+Resource Management:
+Gods must manage resources such as followers, power, and magical energy.
+Gods must maintain a certain number of followers to survive.
+
+Events and Quests:
+Text events that players can participate in.
+Players can create their own quests and events.
+
+Entity Attributes:
+Attributes are assigned based on the player's actions. For example, if a player has 10 followers and kills 11 followers of another player, they gain the attribute "God of War".
+Attributes affect the availability of different skill trees.
+
+Game World:
+Environment:
+The game world is made up of different regions, each with unique characteristics and challenges.
+Regions can include mortal civilizations, wilderness, and ancient ruins.
+
+Lore:
+Each type of deity has a rich backstory and lore that influences their abilities and interactions.
+The Elder Gods are revered for their wisdom and heroic deeds.
+The Ethereal Gods are associated with nature and its balance.
+The Outer Gods bring an element of horror and mysticism, instilling fear in mortals.
+
+Art and Sound:
+Visual Style:
+Fantasy style with detailed images for the interface, character portraits, and maps.
+Atmospheric design that combines visuals with text-based play.
+
+Sound Design:
+Background music and sounds to enhance immersion.
+Specific sound effects for various events and deity actions.
+
+Technical Requirements:
+Engine: Godot 4.2.2
+Networking:
+Setting up the server to handle persistent world and player interactions.
+Real-time updates and synchronization of player actions.
+
+Development Roadmap
+Phase 1: Prototype
+Basic character creation.
+Implementation of basic mechanics for each deity type.
+Initial server setup.
+Phase 2: Alpha
+Expanded world and events.
+Basic resource management.
+Player interaction mechanics.
+Phase 3: Beta
+More complex events and quests.
+Improving the UI and visuals.
+Balancing and polishing game mechanics.
+Phase 4: Release
+Final testing and bug fixing.
+Marketing and launch preparation.
+
+Additional Details:
+Specific attributes and abilities for each deity type.
+Examples of text events and quests.
+Resource management mechanics details.
